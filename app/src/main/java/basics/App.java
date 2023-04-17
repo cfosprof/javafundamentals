@@ -26,23 +26,22 @@ public class App {
         }
     }
 
-    // public static void flipNHeads(int n) {
-    // int count = 0;
-    // int heads = 0;
-    // while (heads < n) {
-    // double random = Math.random();
-    // if (random < 0.5) {
-    // System.out.println("tails");
-    // heads = 0;
-    // } else {
-    // System.out.println("heads");
-    // heads++;
-    // }
-    // count++;
-    // }
-    // System.out.println("It took " + count + " flips to flip " + n + " heads in a
-    // row.");
-    // }
+    public static void flipNHeads(int n) {
+        int count = 0;
+        int heads = 0;
+        while (heads < n) {
+            double random = Math.random();
+            if (random < 0.5) {
+                System.out.println("tails");
+                heads = 0;
+            } else {
+                System.out.println("heads");
+                heads++;
+            }
+            count++;
+        }
+        System.out.println("It took " + count + " flips to flip " + n + " heads in a row.");
+    }
 
     // public static void clock() {
     // int seconds = 0;
