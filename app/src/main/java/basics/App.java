@@ -18,13 +18,13 @@ public class App {
         return "Hello World!";
     }
 
-    // public static void pluralize(String word, int count) {
-    // if (count == 0 || count > 1) {
-    // System.out.println(word + "s");
-    // } else {
-    // System.out.println(word);
-    // }
-    // }
+    public static void pluralize(String word, int count) {
+        if (count == 0 || count > 1) {
+            System.out.println(word + "s");
+        } else {
+            System.out.println(word);
+        }
+    }
 
     // public static void flipNHeads(int n) {
     // int count = 0;
