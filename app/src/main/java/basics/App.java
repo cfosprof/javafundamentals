@@ -43,17 +43,17 @@ public class App {
         System.out.println("It took " + count + " flips to flip " + n + " heads in a row.");
     }
 
-    // public static void clock() {
-    // int seconds = 0;
-    // while (true) {
-    // LocalDateTime now = LocalDateTime.now();
-    // int hour = now.getHour();
-    // int minute = now.getMinute();
-    // int second = now.getSecond();
-    // if (second != seconds) {
-    // seconds = second;
-    // System.out.println(hour + ":" + minute + ":" + second);
-    // }
-    // }
-    // }
+    public static void clock() {
+        int seconds = 0;
+        while (true) {
+            LocalDateTime now = LocalDateTime.now();
+            int hour = now.getHour();
+            int minute = now.getMinute();
+            int second = now.getSecond();
+            if (second != seconds) {
+                seconds = second;
+                System.out.println(hour + ":" + minute + ":" + second);
+            }
+        }
+    }
 }
