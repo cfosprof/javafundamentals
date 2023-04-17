@@ -11,7 +11,7 @@ public class App {
         pluralize("cat", 1);
         pluralize("cat", 2);
         flipNHeads(2);
-        // clock();
+        clock();
     }
 
     public static String getGreeting() {
